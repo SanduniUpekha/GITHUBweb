@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url("https://img.freepik.com/free-photo/adult-children-hands-holding-paper-family-cutout-family-home-foster-care-homeless-support_49149-878.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+section .leftbox
+{
+    width:50%;
+    height:100%
+    float;left:
+    padding:auto50px;
+    box-sizing:border-box;
+}
+
+section .leftbox .content 
+{
+    color:#fff;
+    background:rgba(231, 83, 83, 0.6);
+    padding:40px;
+    transition: .5s;
+}
+
+section .leftbox .content h1
+{
+  margin:0;
+  padding:0;
+  font-size: 50px;
+  text-transform:uppercase;  
+}
+
+section .leftbox .content p
+{
+    margin:10px 0 0; 
+    padding: 0;
+}
