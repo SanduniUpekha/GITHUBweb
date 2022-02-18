@@ -3,3 +3,52 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+}
+.logo{
+    font-size: 35px;           
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.menu {
+    float: right;
+    width: auto;
+    height: auto;
+}
+ul{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    display: inline; 
+    padding: 3px 6px;
+}
+li a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000;
+}
+li a:hover{
+    text-decoration: underline;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    color: rgb(140, 0, 255);
+}
+li:first-child {
+    text-decoration: underline;
+    background-color: peachpuff;
+}
