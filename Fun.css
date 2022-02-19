@@ -1,22 +1,16 @@
-
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins' sans-serif;
 }
-
-body 
+body
 {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe8wqGlP-E8J7PKBQXJhWUk5MD9aGKTvU5_Nb4I9dc2dd2Mq_DrcU_fs5mOsKyBtUxmR0&usqp=CAU);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background: #313131;
 }
 
 .container
