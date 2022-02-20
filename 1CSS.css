@@ -36,3 +36,99 @@ section .leftbox .content p
     margin:10px 0 0; 
     padding: 0;
 }
+section .new
+{
+    position:relative;
+    width:50%;
+    height:100%;
+    float:right;
+    box-sizing:border-box ;
+}
+
+section .new ul
+{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+    padding:px;
+    box-sizing: border-box;
+}
+
+section .new ul li
+{
+    list-style:none;
+    box-sizing: border-box;
+    height:200px;
+    margin: 15px 0;
+
+}
+
+section .new ul li .time
+{
+    position:relative;
+    padding:px;
+    background:#918888;
+    box-sizing:border-box;
+    width:30%;
+    height:100%;
+    float:left;
+    text-align:center;
+    transition:.5s;
+}
+
+section .event ul li .time h2
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:50%;
+    left:50%;
+    transform:transalate(50%,-50%);
+    color:#fff;
+    font-size:60px;
+    line-height:30px;
+}
+
+section .event ul li .time h2 span
+{
+    font-size:30px;
+}
+
+section .event ul li .see more
+{
+    padding:px;
+    background:#fff;
+    box-sizing:border-box;
+    width:70%;
+    height:100%;
+    float:left;
+}
+
+section .event ul li .see more p 
+{
+    position:relative;
+    margin:10px 0  0;
+    padding:0;
+    font-size:16px;
+} 
+
+section .event ul li .see more p a
+{
+  display:inline-block;
+  text-decoration:none; 
+  text-transform:uppercase;
+  padding:10px 15px;
+  border:2px solid #b47b7b;
+  margin-top:15px;
+  font-size:18px;
+  transition: .5s;
+
+}
+
+section .event ul li .see more a: hovet;
+{
+    background:#e91e63;
+    color:white;
+    border-color:#e91e63;
+}
