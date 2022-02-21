@@ -37,4 +37,10 @@ ul
         display: inline-block;
         justify-content: center;
         align-items: center;
-    }    
+    } 
+
+ul li
+    {
+        display: inline; 
+        padding: 3px 6px;
+    }   
