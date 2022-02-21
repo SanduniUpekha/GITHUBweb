@@ -69,4 +69,19 @@ li:first-child
         {
             text-decoration: underline;
             background-color: peachpuff;
-        }        
+        } 
+
+.Contact
+        {  
+	        position: relative;
+	        min-height: 100vh;
+	        padding: 50px 100px;
+	        display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        flex-direction: column;
+	        background: url(https://www.unicef.org/sites/default/files/styles/hero_desktop/public/UNI112437.jpg?itok=qV_CLouD);
+	        background-size:cover ;
+	        font-size: 40px;
+
+        }       
