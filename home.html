@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Our Charity Website</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script>
+            var model = document.getElementById('signin-form');
+            window.onClick = function(event)
+            {
+                if  (event.target == model)
+                {
+                    model.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 class="logo">Life Care</h1>
+            <div class="menu">
+                <ul>
+                    <li class="active"><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">FUNDRAISING</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><button class='signinbtn' onclick="document.getElementById('signin-form').style.display='block'" style="width:auto;">Sign In</button></li>
+                </ul>
+            </div>
+            </div>
+            <div id="signin-form" class="signin-page">
+                <div class="form-box">
+                    <div class="button-box">
+                        <form id="login" class="input-group-login">
+                            <input type="text" class="input-field" placeholder="Email Address" required>
+                            <input type="password" class="input-field" placeholder="Password" required>
+                            <input type="checkbox" class="check-box"><span>Remember Password</span>
+                            <button type="submit" class="submit-btn">Sign In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div class="text">
+                    <p>We are helping the little flowers who are suffering from poverty. <br> 
+                        Let's join hands to build a beautiful future for them free from worries.
+                    </p>
+                </div>
+                <input type="text" placeholder="$50">
+                <br>
+                <button class="button">
+                    <a href="Thankyou.html">Donate us</a> 
+                </button>
+                <div class="text">
+                    <h3>
+                        Come and Join us..
+                    </h3>
+                    <h4>
+                        Be a volunteer !!
+                    </h4>
+                    <h5>To register, Click below.</h5>
+                    <button class='registerbtn'><a href="">Register</a></button>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+</html>
