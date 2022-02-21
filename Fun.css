@@ -40,3 +40,22 @@ flex-wrap: wrap;
     border-top: 20px solid #17e78c;
     border-right: 20px solid #17e78c ;
 }
+.container .card .active::before
+{
+  border-top: 20px solid #ff3b7e ;
+  border-right: 20px solid #ff3b7e;
+}
+.container .card .icon
+{
+    margin-bottom: 10px;
+}
+.container .card .icon img
+{
+    max-width: 90px;
+}
+.container .card .content
+{
+    position: relative;
+    height: 215px;
+    overflow: hidden;
+}
