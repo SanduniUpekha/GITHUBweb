@@ -44,3 +44,14 @@ ul li
         display: inline; 
         padding: 3px 6px;
     }   
+
+li 
+    {
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: inherit;
+        padding: 10px 20px;
+        font-weight: bold;
+        color: #000;
+    }
