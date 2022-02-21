@@ -23,4 +23,11 @@ body
         float: left;
         padding-left: 20px;
         padding-top: 10px;
+    }
+
+.menu 
+    {
+        float: right;
+        width: auto;
+        height: auto;
     }    
