@@ -56,11 +56,17 @@ li
         color: #000;
     }
 
-li a: hover
-            {
-                text-decoration: underline;
-                margin: 10px;
-                border-radius: 10px;
-                background-color: peachpuff;
-                color: rgb(140, 0, 255);
-            }
+li a:hover
+        {
+            text-decoration: underline;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: peachpuff;
+            color: rgb(140, 0, 255);
+        }
+
+li:first-child 
+        {
+            text-decoration: underline;
+            background-color: peachpuff;
+        }        
