@@ -30,4 +30,11 @@ body
         float: right;
         width: auto;
         height: auto;
+    } 
+
+ul
+    {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
     }    
