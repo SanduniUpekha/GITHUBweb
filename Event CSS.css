@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url("https://images.squarespace-cdn.com/content/v1/60045fd32f57da1e2e6edf50/1614943476668-NJC5JNOWP5WYU07G0X2A/01+-+header.png?format=2500w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background: transparent;
+    }
+    .logo{
+        font-size: 35px;           
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: crimson;
+        float: left;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .menu {
+        float: right;
+        width: auto;
+        height: auto;
+    }
+    .menu ul{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul li{
+        display: inline; 
+        padding: 3px 6px;
+    }
+    .menu ul li a{
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: inherit;
+        padding: 10px 20px;
+        font-weight: bold;
+        color: #000;
+    }
+    .menu ul li a:hover{
+        text-decoration: underline;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: peachpuff;
+        color: rgb(140, 0, 255);
+    }
+    .menu ul li:last-child {
+        text-decoration: underline;
+        background-color: peachpuff;
+    }
+
+section .leftbox
+{
+    width:50%;
+    height:100%
+    float;left:
+    padding:auto40px;
+    box-sizing:border-box;
+}
+
+section .leftbox .content 
+{
+    color:#fff;
+    background:rgba(231, 83, 83, 0.6);
+    padding:40px;
+    transition: .5s;
+}
+
+section .leftbox .content h1
+{
+  margin:0;
+  padding:0;
+  font-size: 50px;
+  text-transform:uppercase;  
+}
+
+section .leftbox .content p
+{
+    margin:10px 0 0; 
+    padding: 0;
+}
+
+section .new
+{
+    position:relative;
+    width:50%;
+    height:60%;
+    float:right;
+    box-sizing:border-box ;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+section .new ul
+{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+    padding:px;
+    box-sizing: border-box;
+}
+
+section .new ul li
+{
+    list-style:none;
+    box-sizing: border-box;
+    height:200px;
+    margin: 15px 0;
+
+}
+
+section .new ul li .time
+{
+    position:relative;
+    padding:px;
+    background:#918888;
+    box-sizing:border-box;
+    width:30%;
+    height:100%;
+    float:left;
+    text-align:center;
+    transition:.5s;
+}
+
+section .event ul li .time h2
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:50%;
+    left:50%;
+    transform:transalate(50%,-50%);
+    color:#fff;
+    font-size:60px;
+    line-height:30px;
+}
+
+section .event ul li .time h2 span
+{
+    font-size:30px;
+}
+
+section .event ul li .see more
+{
+    padding:px;
+    background:#fff;
+    box-sizing:border-box;
+    width:70%;
+    height:100%;
+    float:left;
+}
+
+section .event ul li .see more p 
+{
+    position:relative;
+    margin:10px 0  0;
+    padding:0;
+    font-size:16px;
+} 
+
+section .event ul li .see more p a
+{
+  display:inline-block;
+  text-decoration:none; 
+  text-transform:uppercase;
+  padding:10px 15px;
+  border:2px solid #b47b7b;
+  margin-top:15px;
+  font-size:18px;
+  transition: .5s;
+
+}
+
+section .event ul li .see more a: hovet;
+{
+    background:#e91e63;
+    color:white;
+    border-color:#e91e63;
+}
+
+
+
