@@ -11,8 +11,9 @@ body {
     background: transparent;
 }
 .logo{
-    font-size: 35px;           
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;           
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 2px black;
     color: crimson;
     float: left;
     padding-left: 20px;
@@ -72,7 +73,7 @@ ul li button:hover {
 .form-box {
     width: 250px;
     height: 250px;
-    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    background: linear-gradient(to top,rgba(204, 194, 194, 0.8)50%,rgba(204, 194, 194, 0.8)50%);
     position: relative;
     border-radius: 10px;
     margin: 2% auto;
@@ -176,12 +177,17 @@ span {
 .button:hover {
     background-position: 100%;
 }
-.text h3, h4{
+.text h3 {
     color: #000;
+    font-size: 30px;
+}
+.text h2{
+    color: #000;
+    -webkit-text-stroke: 1px blue;
     font-size: 35px;
 }
 .text h5 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bolder;
 }
 .registerbtn {
