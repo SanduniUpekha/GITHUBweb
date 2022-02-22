@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register now</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <form action="insert.php" method="post">
+            <table>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Age :</td>
+                    <td><input type="text" name="age" required></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" name="gender" value="m" required>Male
+                        <input type="radio" name="gender" value="f" required>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Phone no :</td>
+                    <td>
+                        <select name="phoneCode" required>
+                            <option selected hidden value="">Select code</option>
+                            <option value="070">070</option>
+                            <option value="071">071</option>
+                            <option value="072">072</option>
+                            <option value="074">074</option>
+                            <option value="075">075</option>
+                            <option value="076">076</option>
+                            <option value="077">077</option>
+                            <option value="078">078</option>
+                        </select>
+                        <input type="phone" name="phone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
