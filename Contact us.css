@@ -6,17 +6,14 @@ body
     background-size: cover;
 }
 
-#header
-{
+#header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     background: transparent;
-}
-
-.logo 
-{
+     }
+.logo {
     font-size: 50px;           
     font-family: Georgia, Times, 'Times New Roman', serif;
     -webkit-text-stroke: 2px  black;
@@ -24,4 +21,304 @@ body
     float: left;
     padding-left: 20px;
     padding-top: 10px;
+}
+.menu {
+    float: right;
+    width: auto;
+    height: auto;
+      }
+
+ul{
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    float: right;
+    margin: 20px;
+  } 
+
+ul li{
+    display: inline; 
+    padding: 3px 6px;
+     }
+
+li a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000;
+    }
+
+li a:hover{
+    text-decoration: underline;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    color: rgb(140, 0, 255);
+    }
+
+.active, li:hover {
+    text-decoration: underline;
+    background-color: peachpuff;
+    }  
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+.Contact
+{  
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://www.eesc.europa.eu/sites/default/files/styles/large/public/images/philanthropy.jpg?itok=ZoK_6qL6);
+    background-size: cover;
+    font-size: 40px;
+
+}
+
+.Contact
+{  
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://cdn.wallpapersafari.com/0/46/80MZDc.jpg);
+    background-size: cover;
+    font-size: 20px;
+
+}
+
+.Contact .Content
+{
+    max-width: 800px;
+    text-align: center;
+    
+}
+
+.Contact .Content h1
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+}
+
+.Contact .Content p
+{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+}
+
+.Container
+{
+    width: 100%;
+    display: flew;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30;
+}
+
+.Container .ContactInfo
+{
+    width: 50%;
+    display:flex ;
+    flex-direction: column  ;
+}
+
+.Container .ContactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    color: black;
+}
+
+.Container .ContactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: list-item;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.Container .ContactInfo .box .text 
+{
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #00bcd4;
+    flew-direction: column;
+    font-weight: 300;
+    font-size: 20px; 
+}  
+
+.Container .ContactInfo .box .text h3
+{
+    justify-content: left;
+    align-items: center;
+    font-weight: 500;
+    color: #ff2424;
+}
+
+.ContactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+
+@media only screen and (max-width: 600px) {
+.ContactForm
+{
+    width: 20%;
+    padding: 20px;
+    background: #fff;
+}
+}
+
+.ContactForm h2
+{
+    font-size: 35px;
+    color: #333;
+    font-weight: 2000;
+}
+
+.ContactForm .inputbox
+{
+     position: relative;
+     width: 100%;
+     margin-top: 10px;
+}
+
+.ContactForm .inputbox input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #00FF00;
+    outline: none;
+    resize: none;
+}
+
+.ContactForm .inputbox textarea
+{
+    width: 95%;
+    height: 100px;
+    padding: 15px;
+    resize: none;
+    font-size: 16px; 
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.ContactForm .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 8px 0;
+    pointer-events: none;
+    transition: 0.5%;
+    color: #666;
+}
+
+.ContactForm .inputbox input:focus ~ span,
+.ContactForm .inputbox input:valid ~ span,
+.ContactForm .inputbox textarea:focus ~ span,
+.ContactForm .inputbox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+button {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding:10px ;
+    font-size: 18px;
+}
+
+button:hover 
+{
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  
+}
+@media (max-width: 991px)
+{
+    .Contact 
+    {
+        padding: 50px;
+    } 
+
+    .Container
+    {
+        flex-direction: column;
+    }
+
+    .Container .ContentInfo
+    {
+        margin-bottom: 40px;
+    }
+
+    .Container .ContentInfo,
+    .ContactForm
+    {
+        width: 100%;
+    }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(68, 64, 63);
+    color: white;
+  }    
+
 }
