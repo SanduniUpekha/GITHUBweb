@@ -1,0 +1,27 @@
+body
+{
+    background-image: url("https://wallpaperaccess.com/full/1567831.jpg");
+    background-repeat: no-repeats ;
+    position: relative;
+    background-size: cover;
+}
+
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+}
+
+.logo 
+{
+    font-size: 50px;           
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 2px  black;
+    color: crimson;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
