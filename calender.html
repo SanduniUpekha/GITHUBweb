@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender Event Using HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="Calender.css">
+    <link rel="stylesheet" href="Get.css">
+    <link rel="stylesheet" href="Java.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+
+        <div id="calendar"></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js">
+         
+    </script>
+    <script src="Java.js">
+
+    </script>
+    <script>
+
+$(document).ready(function() {
+    $('#calendar').evoCalendar({
+        
+        calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Event 01", // Event name (required)
+        date: "May/19/2020",
+         // Event date (required)
+        description:"Our primary goal is to provide young children with the immunizations they need to protect themselves from future noncommunicable diseases and infectious diseases.The vaccination drive will be held on May 19 at the Sanasa Hall in Habarakada. About 20 doctors and nurses from the area are expected to participate in this event.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Event 04",
+        badge: "09/03 - 09/08", // Event badge (optional)
+        date: ["September/24/2022", "September/29/2022"], // Date range
+        description: "Our aim here is to collect books and educational materials as much as possible and distribute them to low income schools and youth clubs. Children's toys and even children's clothing are donated to the less privileged. Through this simple program we hope to find people who have similar ideas. If you would like to contribute their time and try to help these children, join us.This will happen last for six days.", // Event description (optional)
+        type: "holiday",
+        color: "#63d867" // Event custom color (optional)
+      }
+
+      ,{
+        id: 'event1', // Event's ID (required)
+        name: "Event 02", // Event name (required)
+        date: "May/24/2022",
+         // Event date (required)
+        description:"Here we have arranged to provide luggage worth Rs. 5,000 to 15 selected low income families.At the same time, they have been prepared to serve lunch that day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Event 03", // Event name (required)
+        date: "October/10/2022",
+         // Event date (required)
+        description:"The main objective of this is to provide sports equipment and other necessary items to the 5 difficult schools we have selected.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+    ]
+
+    })
+})
+
+
+        
+    </script>
+     
+    
+</body>
+</html>
