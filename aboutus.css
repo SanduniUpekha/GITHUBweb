@@ -2,6 +2,56 @@ body {
     background-image: url("https://static.wixstatic.com/media/34dda1_b14077d2362a44ae90e42d632fa22593~mv2.jpg/v1/fill/w_640,h_456,al_c,q_80,usm_0.66_1.00_0.01/34dda1_b14077d2362a44ae90e42d632fa22593~mv2.webp");
     background-size: cover;
 }
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+}
+.logo{
+    font-size: 50px;           
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 2px black;
+    color: crimson;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.menu {
+    float: right;
+    width: auto;
+    height: auto;
+}
+ul{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    display: inline; 
+    padding: 3px 6px;
+}
+li a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000;
+}
+li a:hover{
+    text-decoration: underline;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    color: rgb(140, 0, 255);
+}
+.active ,li:hover{
+    text-decoration: underline;
+    background-color: peachpuff;
+}
 .image4 {
     margin: 0%;
     position: 100%;
@@ -9,7 +59,7 @@ body {
 
 .first-txt {
     position: absolute;
-    top: 0px;
+    top:90px;
     left: 10px;
 }
 
@@ -45,3 +95,11 @@ h1 {text-align: center;}
 }
 p {text-align: center;}
 h2 {text-align: left;}
+
+footer {
+    text-align: left;
+    padding: 30px;
+    background-color: rgb(68, 64, 63);
+    color: white;
+  }
+
