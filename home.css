@@ -293,3 +293,10 @@ span {
     cursor: default;
     opacity: .24;
 }
+footer {
+    text-align: center;
+    padding: 2px;
+    background: linear-gradient(to top,rgba(252, 195, 195, 0.8)50%,rgba(252, 195, 195, 0.8)50%);
+    background-color:transparent;
+  }
+
