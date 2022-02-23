@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/modern-keyboard-with-blue-online-registration-button-picture-id931524202?b=1&k=20&m=931524202&s=170667a&w=0&h=AUacfR9LFQ97ZvYVA97VXPSdjbn-DMezqL3MDEwJSqc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    margin: auto;
+    width: 50%;
+    font-size: xx-large;
+}
+option {
+    font-size: x-large;
+}
+.radio {
+    font-size: large;
+}
+input {
+    padding: 10px 20px;
+    font-family: Times New 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.submit {
+
+}
