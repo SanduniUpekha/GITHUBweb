@@ -67,14 +67,14 @@ li a:hover {
     text-decoration: underline;
     margin: 10px;
     border-radius: 10px;
-    background-color: DeepSkyBlue;
+    background-color: peachpuff;
     color: rgb(183, 0, 255);
 }
 
 .active,
 li:hover {
     text-decoration: underline;
-    background-color: DeepSkyBlue;
+    background-color: peachpuff;
 }
 
 .contain {
