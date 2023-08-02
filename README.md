@@ -31,7 +31,7 @@ Welcome to the Charity Website project! This is a group project for the Web Deve
 
 - [Sanduni Upekha](https://github.com/SanduniUpekha)
 - [Savodya Samarasinghe](https://github.com/savodya)
-- [Jayani Malshika](hhttps://github.com/JayaniMalshika)
+- [Jayani Malshika](https://github.com/JayaniMalshika)
 - [Dinidu Malinths](https://github.com/Dinindu2001)
 - [Denuwan Tharindu](https://github.com/DTmannapperuma)
 
